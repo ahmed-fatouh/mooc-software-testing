@@ -36,7 +36,7 @@ public class CaesarShiftCipherTest {
     }
 
     @ParameterizedTest()
-    @CsvSource({"q!2", "@#$%", "Car", "C^2", "2010"})
+    @CsvSource({"q!2", "@#$%", "Car", "C^2", "2010","a|b"})
     public void InvalidMessage(String message){
         String result;
         result = caesar.CaesarShiftCipher(message, -3);
