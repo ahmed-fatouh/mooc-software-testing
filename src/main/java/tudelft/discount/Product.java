@@ -27,4 +27,9 @@ public class Product {
     public void setPrice (double price) {
         this.price = price;
     }
+
+    public void setCategory (String category) {
+        this.category = category;
+    }
+
 }
